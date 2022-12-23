@@ -41,6 +41,8 @@ function App() {
           className="reset"
           onClick={() => {
             setCounter(0);
+            setButton1(false);
+            setButton2(true);
           }}
         >
           Reset
